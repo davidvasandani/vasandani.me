@@ -4,6 +4,7 @@ import {
   Root,
   Container,
   Header,
+  Footer,
 } from '@jxnblk/gatsby-theme-mdx-blog'
 
 export default props =>
@@ -13,5 +14,6 @@ export default props =>
       <Container>
         {props.children}
       </Container>
+      <Footer />
     </Root>
   </ComponentProvider>

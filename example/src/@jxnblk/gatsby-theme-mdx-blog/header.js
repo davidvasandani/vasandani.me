@@ -44,7 +44,7 @@ export default props => {
                 color: 'primary',
               }
             })}>
-            Custom Header
+            Home
           </Styled.a>
         </Styled.h3>
         <Box mx={2} />
